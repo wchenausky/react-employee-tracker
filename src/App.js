@@ -1,6 +1,7 @@
 import "./App.css";
-import Jumbotron from "./components/Jumbotron/Jumbotron.jsx";
-import SearchBar from "./components/SearchBar/SearchBar.jsx";
+import Jumbotron from "./components/Jumbotron";
+import SearchBar from "./components/SearchBar";
+import TableHtml from "./components/TableHtml";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import "./App.css"
@@ -9,7 +10,8 @@ function App() {
   return (
     <div className="App">
       <Jumbotron />
-        <SearchBar/> 
+        <SearchBar />
+        <TableHtml />
     </div>
   );
 }
