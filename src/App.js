@@ -1,14 +1,15 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Wrapper from "./components/Wrapper/Wrapper.jsx";
-import Header from "./components/Header/Header.jsx";
+import Jumbotron from "./components/Jumbotron/Jumbotron.jsx";
+import SearchBar from "./components/SearchBar/SearchBar.jsx";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import "./App.css"
 
 function App() {
   return (
     <div className="App">
-      <Wrapper>
-        <Header /> 
-      </Wrapper>
+      <Jumbotron />
+        <SearchBar/> 
     </div>
   );
 }
