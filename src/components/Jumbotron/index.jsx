@@ -1,14 +1,16 @@
-import React from 'react'
-import "./style.css"
-
+import React from "react";
+import "./style.css";
 
 function Jumbotron() {
-    return (
+  return (
     <div className="jumbotron jumbotron-fluid">
-        <h1 className="container">Employee Directory</h1>
-        <p className="lead">A list of the current employees. Use the search box to narrow down your results.</p>
+      <h1 className="container">Employee Directory</h1>
+      <p className="lead">
+        A list of the current employees. Use the search box to narrow down your
+        results.
+      </p>
     </div>
   );
 }
 
-export default Jumbotron
+export default Jumbotron;
