@@ -1,7 +1,7 @@
 import React from "react";
-import "./style.css";
 
-function TableHtml() {
+
+function TableHtml(props) {
   return (
     <div>
       <table className="table">
@@ -15,10 +15,10 @@ function TableHtml() {
         </thead>
         <tbody>
           <tr>
-            <td>{employee.picture}</td>
-            <td>{employee.name}</td>
-            <td>{employee.email}</td>
-            <td>{employee.nationality}</td>
+            <td>{props.employee.picture}</td>
+            <td>{props.employee.name}</td>
+            <td>{props.employee.email}</td>
+            <td>{props.employee.nationality}</td>
           </tr>
         </tbody>
       </table>
